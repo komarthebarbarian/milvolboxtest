@@ -1,0 +1,135 @@
+:root {
+  --brown: #471800;
+  --white: #fff2f9;
+  --main: #bf360c;
+}
+
+.hero {
+  background-image: url(img/naslovna1.jpg);
+  background-position: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 700px;
+  background-color: var(--brown);
+}
+
+.mtop {
+  margin-top: 3rem;
+}
+
+.social {
+  display: flex;
+  gap: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+  .second {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .hero {
+    background-image: url(img/naslovna2.jpg);
+  }
+}
+
+/* .row {
+  margin-bottom: 0;
+} */
+
+/* KATEGORIJE */
+
+.backfix {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.priz-one {
+  background-image: url(img/priz/1.jpg);
+}
+.priz-two {
+  background-image: url(img/priz/2.jpg);
+}
+.priz-three {
+  background-image: url(img/priz/3.jpg);
+}
+.priz-four {
+  background-image: url(img/priz/4.jpg);
+}
+.priz-five {
+  background-image: url(img/priz/5.jpg);
+}
+.priz-six {
+  background-image: url(img/priz/6.jpg);
+}
+.priz-seven {
+  background-image: url(img/priz/7.jpg);
+}
+
+.dek-one {
+  background-image: url(img/dek/1.jpg);
+}
+.dek-two {
+  background-image: url(img/dek/2.jpg);
+}
+.dek-three {
+  background-image: url(img/dek/3.jpg);
+}
+.dek-four {
+  background-image: url(img/dek/4.jpg);
+}
+.dek-five {
+  background-image: url(img/dek/5.jpg);
+}
+.dek-six {
+  background-image: url(img/dek/6.jpg);
+}
+.dek-seven {
+  background-image: url(img/dek/7.jpg);
+}
+
+.pok-one {
+  background-image: url(img/pok/1.jpg);
+}
+.pok-two {
+  background-image: url(img/pok/2.jpg);
+}
+.pok-three {
+  background-image: url(img/pok/3.jpg);
+}
+.pok-four {
+  background-image: url(img/pok/4.jpg);
+}
+.pok-five {
+  background-image: url(img/pok/5.jpg);
+}
+.pok-six {
+  background-image: url(img/pok/6.jpg);
+}
+.pok-seven {
+  background-image: url(img/pok/7.jpg);
+}
+
+.pov-one {
+  background-image: url(img/pov/1.jpg);
+}
+.pov-two {
+  background-image: url(img/pov/2.jpg);
+}
+.pov-three {
+  background-image: url(img/pov/3.jpg);
+}
+.pov-four {
+  background-image: url(img/pov/4.jpg);
+}
+.pov-five {
+  background-image: url(img/pov/5.jpg);
+}
+.pov-six {
+  background-image: url(img/pov/6.jpg);
+}
+.pov-seven {
+  background-image: url(img/pov/7.jpg);
+}
