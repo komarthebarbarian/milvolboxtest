@@ -1,7 +1,16 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 :root {
   --brown: #471800;
   --white: #fff2f9;
   --main: #bf360c;
+  --cream: #fbffc0;
+}
+
+.language {
+  margin-top: 15px;
 }
 
 .hero {
@@ -12,16 +21,21 @@
   width: 100%;
   height: 700px;
   background-color: var(--brown);
+  margin-top: 0;
+}
+
+.hero-card {
+  background-color: var(--brown);
+  color: rgb(255, 230, 130);
+}
+
+.hero-btn {
+  width: 150px;
 }
 
 .mtop {
   margin-top: 3rem;
 }
-
-/* .social {
-  display: flex;
-  gap: 30px;
-} */
 
 @media only screen and (max-width: 600px) {
   .second {
@@ -33,10 +47,6 @@
     background-image: url(img/naslovna2.jpg);
   }
 }
-
-/* .row {
-  margin-bottom: 0;
-} */
 
 /* KATEGORIJE */
 

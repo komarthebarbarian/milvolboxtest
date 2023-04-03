@@ -1,9 +1,24 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Milvolbox handmade box" />
+    <meta
+      name="keywords"
+      content="rucno pravljene dekorativne kutije za poklon povelje meniji jelovnici kutije po dimenzijama"
+    />
+    <meta name="author" content="Марко Младеновић" />
+    <meta property="og:title" content="Milvolbox" />
+    <meta property="og:description" content="Handmade box" />
+    <meta
+      property="og:image"
+      content="https://milvolbox.com/img/naslovna.jpg"
+    />
+    <meta property="og:url" content="https://milvolbox.com/index.html" />
     <title>Milvolbox</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico" />
     <!-- CSS -->
     <link
       rel="stylesheet"
@@ -15,8 +30,14 @@
     />
     <!-- CSS END -->
     <!-- PHOSPHOR -->
-    <script src="https://unpkg.com/@phosphor-icons/web"></script>
-
+    <script defer src="https://unpkg.com/@phosphor-icons/web"></script>
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
     <!-- SCRIPT -->
     <script
       defer
@@ -40,51 +61,77 @@
             ><img src="img/logo-mini.png" alt="Milvolbox Logo" width="85px"
           /></a>
           <a href="#" data-target="mobile-demo" class="sidenav-trigger"
-            ><i class="material-icons red-text text-darken-3">menu</i></a
+            ><i class="material-icons brown-text text-lighten-1">menu</i></a
           >
-          <!-- NAMESTI TEXT COLOR KAKO TREBA -->
+
           <ul class="right hide-on-med-and-down">
             <li>
-              <a
-                href="index.html"
-                class="waves-effect waves-teal btn-flat"
-                href="#"
-                >Naslovna</a
+              <a class="waves-effect waves-brown btn-flat" href="./index.html"
+                ><span lang="sr" class="card-title">Naslovna</span
+                ><span lang="en" class="card-title">Home</span></a
               >
             </li>
             <li>
               <a
-                class="waves-effect waves-teal btn-flat"
+                class="waves-effect waves-brown btn-flat"
                 href="./index.html#about"
-                >O nama</a
+                ><span lang="sr" class="card-title">O nama</span
+                ><span lang="en" class="card-title">About us</span></a
+              >
+            </li>
+            <li>
+              <a class="waves-effect waves-brown btn-flat" href="./usluge.html"
+                ><span lang="sr" class="card-title">Usluge</span
+                ><span lang="en" class="card-title">Products</span></a
               >
             </li>
             <li>
               <a
-                href="usluge.html"
-                class="waves-effect waves-teal btn-flat"
-                href="#"
-                >Usluge</a
+                class="waves-effect waves-brown btn-flat"
+                href="./cenovnik.html"
+                ><span lang="sr" class="card-title">Cenovnik</span
+                ><span lang="en" class="card-title">Pricelist</span></a
               >
             </li>
             <li>
-              <a class="waves-effect waves-teal btn-flat" href="#">Cenovnik</a>
-            </li>
-            <li>
-              <a class="waves-effect waves-teal btn-flat" href="#">Galerija</a>
+              <a
+                class="waves-effect waves-brown btn-flat"
+                href="./galerija.html"
+                ><span lang="sr" class="card-title">Galerija</span
+                ><span lang="en" class="card-title">Gallery</span></a
+              >
             </li>
             <li>
               <a
-                class="waves-effect waves-teal btn-flat"
+                class="waves-effect waves-brown btn-flat"
                 href="./index.html#kontakt"
-                >Kontakt</a
+                ><span lang="sr" class="card-title">Kontakt</span
+                ><span lang="en" class="card-title">Contact</span></a
               >
+            </li>
+            <li>
+              <img
+                lang="sr"
+                class="language"
+                src="img/lang-en.png"
+                alt="lang"
+                width="34px"
+              />
+              <img
+                class="language"
+                lang="en"
+                src="img/lang-sr.png"
+                alt="lang"
+                width="34px"
+              />
             </li>
           </ul>
           <ul class="right hide-on-med-and-up">
             <li>
-              <a href="#"
-                ><i class="material-icons red-text text-darken-3">phone</i></a
+              <a href="tel:+38162210253"
+                ><i class="material-icons brown-text text-lighten-1"
+                  >phone</i
+                ></a
               >
             </li>
           </ul>
@@ -94,169 +141,251 @@
 
     <ul class="sidenav" id="mobile-demo">
       <li>
-        <a href="index.html" class="waves-effect waves-teal btn-flat" href="#"
-          >Naslovna</a
+        <a class="waves-effect waves-brown btn-flat" href="./index.html"
+          ><span lang="sr" class="card-title">Naslovna</span
+          ><span lang="en" class="card-title">Home</span></a
         >
       </li>
       <li>
-        <a href="./index.html#about" class="waves-effect waves-teal btn-flat"
-          >O nama</a
+        <a class="waves-effect waves-brown btn-flat" href="./index.html#about"
+          ><span lang="sr" class="card-title">O nama</span
+          ><span lang="en" class="card-title">About us</span></a
         >
       </li>
       <li>
-        <a href="usluge.html" class="waves-effect waves-teal btn-flat" href="#"
-          >Usluge</a
+        <a class="waves-effect waves-brown btn-flat" href="./usluge.html"
+          ><span lang="sr" class="card-title">Usluge</span
+          ><span lang="en" class="card-title">Products</span></a
         >
       </li>
-      <li><a class="waves-effect waves-teal btn-flat" href="#">Cenovnik</a></li>
       <li>
-        <a class="waves-effect waves-teal btn-flat" href="#">Galerija</a>
+        <a class="waves-effect waves-brown btn-flat" href="./cenovnik.html"
+          ><span lang="sr" class="card-title">Cenovnik</span
+          ><span lang="en" class="card-title">Pricelist</span></a
+        >
       </li>
       <li>
-        <a class="waves-effect waves-teal btn-flat" href="#">Kontakt</a>
+        <a class="waves-effect waves-brown btn-flat" href="./galerija.html"
+          ><span lang="sr" class="card-title">Galerija</span
+          ><span lang="en" class="card-title">Gallery</span></a
+        >
+      </li>
+      <li>
+        <a class="waves-effect waves-brown btn-flat" href="./index.html#kontakt"
+          ><span lang="sr" class="card-title">Kontakt</span
+          ><span lang="en" class="card-title">Contact</span></a
+        >
+      </li>
+      <li class="center-align">
+        <img
+          lang="sr"
+          class="language"
+          src="img/lang-en.png"
+          alt="lang"
+          width="34px"
+        />
+        <img
+          class="language"
+          lang="en"
+          src="img/lang-sr.png"
+          alt="lang"
+          width="34px"
+        />
       </li>
     </ul>
+
     <!-- NAVBAR END -->
     <!-- HERO -->
-    <div class="hero">
-      <div class="valign-wrapper row">
-        <div class="col s6 m6 l6">
-          <h3 class="center-align white-text">Milvolbox</h3>
-          <div class="center-align">
-            <a href="#" class="waves-effect waves-light red lighten-2 btn"
-              ><i class="material-icons left">cloud</i>usluge</a
-            >
-            <a href="#" class="waves-effect waves-light orange accent-4 btn"
-              ><i class="material-icons left">cloud</i>kontakt</a
-            >
+    <div class="hero valign-wrapper">
+      <div class="row">
+        <div class="">
+          <div class="white-text center-align">
+            <h1>Milvolbox</h1>
+            <h3>Handmade box</h3>
+            <div class="center-align">
+              <div class="hero-box">
+                <a
+                  lang="sr"
+                  href="index.html#usluge"
+                  class="waves-effect waves-light brown lighten-2 btn hero-btn"
+                  ><i class="material-icons left">picture_in_picture_alt</i>
+                  <span lang="sr" class="card-title">usluge</span>
+                </a>
+                <a
+                  lang="en"
+                  href="index.html#usluge"
+                  class="waves-effect waves-light brown lighten-2 btn hero-btn"
+                  ><i lang="en" class="material-icons left"
+                    >picture_in_picture_alt</i
+                  >
+                  <span lang="en" class="card-title">services</span></a
+                >
+                <a
+                  lang="sr"
+                  href="index.html#kontakt"
+                  class="waves-effect waves-light brown lighten-4 btn hero-btn"
+                  ><i class="material-icons left">phone</i
+                  ><span lang="sr" class="card-title">kontakt</span></a
+                >
+                <a
+                  lang="en"
+                  href="index.html#kontakt"
+                  class="waves-effect waves-light brown lighten-4 btn hero-btn"
+                  ><i lang="en" class="material-icons left">phone</i
+                  ><span lang="en" class="card-title">Contact</span></a
+                >
+              </div>
+            </div>
           </div>
-        </div>
-        <div class="col s6 m6 l6 center-align">
-          <img src="img/logo.png" alt="Milvolbox Logo" height="170px" />
         </div>
       </div>
     </div>
 
     <!-- HERO END -->
+    <!-- HERO ADD -->
+    <div class="row mtop center-align">
+      <div class="col s4 m4">
+        <div class="card brown lighten-1">
+          <div class="card-content white-text">
+            <span class="card-title"><i class="ph ph-package"></i></span>
+            <p lang="sr">Kutije</p>
+          </div>
+        </div>
+      </div>
+      <div class="col s4 m4">
+        <div class="card brown darken-1">
+          <div class="card-content white-text">
+            <span class="card-title"><i class="ph ph-notebook"></i></span>
+            <p lang="sr">Meniji</p>
+          </div>
+        </div>
+      </div>
+      <div class="col s4 m4">
+        <div class="card brown darken-4">
+          <div class="card-content white-text">
+            <span class="card-title"><i class="ph ph-certificate"></i></span>
+            <p lang="sr">Povelje</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- HERO ADD END -->
     <!-- ABOUT -->
     <div id="about" class="container row about center-align">
-      <h1>O nama</h1>
-      <h5>
+      <h1 lang="sr">O nama</h1>
+      <h1 lang="en">About us</h1>
+      <h5 lang="sr">
         Tu smo da vam ponudimo moderne ručno rađene proizvode, ukrašene
         kreativnošću i posvećenošću našeg tima, sve u cilju kreiranja savršenog
         proizvoda za vaš brend. Stvaramo luksuzne kutije ugrađujući karakter i
         kreativnost, a ručni rad daje poseban pečat po kome vaš brend može biti
         prepoznat.
       </h5>
+      <h5 lang="en">
+        We are here to offer you modern handmade products, decorated with
+        creativity and dedication of our team, all in order to create the
+        perfect products for your brand. We create luxury boxes incorporating
+        character and creativity, and our precise handwork gives them a special
+        stamp whith which your brand can be recognized.
+      </h5>
     </div>
     <!-- ABOUT END -->
     <!-- CARDS -->
-    <div class="container row">
-      <h1 class="center-align">Naše usluge</h1>
+    <div id="usluge" class="container row">
+      <h1 lang="sr" class="center-align">Naše usluge</h1>
+      <h1 lang="en" class="center-align">Our services</h1>
+
       <div class="row">
         <!-- FIRST -->
-        <div class="col s12 m6 l4">
-          <div class="card">
-            <div class="card-image">
-              <img class="responsive-img" src="img/priz.jpg" />
-              <span class="card-title">Kutije za priznanja</span>
-            </div>
-            <div class="card-content">
-              <p>Kutije za priznanja</p>
-            </div>
-            <div class="card-action">
-              <a href="#">Više</a>
+        <a href="./usluge.html#priznanja">
+          <div class="col s12 m6 l4">
+            <div class="card">
+              <div class="card-image">
+                <img class="responsive-img" src="img/priz.jpg" />
+                <span lang="sr" class="card-title">Kutije za priznanja</span>
+                <span lang="en" class="card-title"
+                  >Boxes for acknowledgments</span
+                >
+              </div>
             </div>
           </div>
-        </div>
+        </a>
         <!-- FIRST -->
         <!-- SECOND -->
-        <a href="">
+        <a href="./usluge.html#dekorativne">
           <div class="col s12 m6 l4">
             <div class="card">
               <div class="card-image">
                 <img class="responsive-img" src="img/dek.jpg" />
-                <span class="card-title">Dekorativne kutije</span>
-              </div>
-              <div class="card-content">
-                <p>Dekorativne kutije</p>
-              </div>
-              <div class="card-action">
-                <a href="#">Više</a>
+                <span lang="sr" class="card-title">Dekorativne kutije</span>
+                <span lang="en" class="card-title">Decorative boxes</span>
               </div>
             </div>
           </div>
         </a>
         <!-- SECOND -->
         <!-- THIRD -->
-        <div class="col s12 m6 l4">
-          <div class="card">
-            <div class="card-image">
-              <img class="responsive-img" src="img/pok.jpg" />
-              <span class="card-title">Poklon kutije</span>
-            </div>
-            <div class="card-content">
-              <p>Poklon kutije</p>
-            </div>
-            <div class="card-action">
-              <a href="#">Više</a>
+        <a href="./usluge.html#poklon">
+          <div class="col s12 m6 l4">
+            <div class="card">
+              <div class="card-image">
+                <img class="responsive-img" src="img/pok.jpg" />
+                <span lang="sr" class="card-title">Poklon kutije</span>
+                <span lang="en" class="card-title">Gift boxes</span>
+              </div>
             </div>
           </div>
-        </div>
+        </a>
         <!-- THIRD -->
         <!-- FOURTH -->
-        <div class="col s12 m6 l4">
-          <div class="card">
-            <div class="card-image">
-              <img class="responsive-img" src="img/pov.jpg" />
-              <span class="card-title">Luksuzne povelje</span>
-            </div>
-            <div class="card-content">
-              <p>Luksuzne povelje</p>
-            </div>
-            <div class="card-action">
-              <a href="#">Više</a>
+        <a href="./usluge.html#fascikle">
+          <div class="col s12 m6 l4">
+            <div class="card">
+              <div class="card-image">
+                <img class="responsive-img" src="img/pov.jpg" />
+                <span lang="sr" class="card-title">Luksuzne povelje</span>
+                <span lang="en" class="card-title">Luxury charters</span>
+              </div>
             </div>
           </div>
-        </div>
+        </a>
         <!-- FOURTH -->
         <!-- FIFTH -->
         <div class="col s12 m6 l4">
           <div class="card">
             <div class="card-image">
               <img class="responsive-img" src="img/jel.jpg" />
-              <span class="card-title">Coming soon</span>
-            </div>
-            <div class="card-content">
-              <p>Jelovnici?</p>
-            </div>
-            <div class="card-action">
-              <a href="#">Više</a>
+              <span lang="sr" class="card-title"
+                >Jelovnici i meniji <br />
+                Uskoro u ponudi</span
+              >
+              <span lang="en" class="card-title"
+                >Menus <br />
+                Coming soon</span
+              >
             </div>
           </div>
         </div>
         <!-- FIFTH -->
         <!-- BONUS -->
-        <div class="col s12 m6 l4">
-          <div class="card">
-            <div class="card-image">
-              <img class="responsive-img" src="img/vas.jpg" />
-              <span class="card-title">Kutije po vašoj meri</span>
-            </div>
-            <div class="card-content">
-              <p>Kutije po vašoj meri</p>
-            </div>
-            <div class="card-action">
-              <a href="#">Više</a>
+        <a href="./usluge.html#kutije">
+          <div class="col s12 m6 l4">
+            <div class="card">
+              <div class="card-image">
+                <img class="responsive-img" src="img/vas.jpg" />
+                <span lang="sr" class="card-title">Kutije po vašoj meri</span>
+                <span lang="en" class="card-title">Custom boxes</span>
+              </div>
             </div>
           </div>
-        </div>
+        </a>
         <!-- BONUS -->
       </div>
       <div class="row">
         <div class="col s12 m6 l6">
           <div class="valign-wrapper">
-            <p class="mtop">
+            <p lang="sr" class="mtop">
               Naš krajnji proizvod - luksuzna kutija - može da se koristi za
               poklone vašim poslovnim partnerima ili promociju i pakovanje
               unikatnih proizvoda koji će skrenuti pažnju na prvi pogled i
@@ -266,14 +395,29 @@
               Zahvaljujući dugogodišnjem iskustvu pružamo vam kvalitet s kojim
               ćete biti prepoznatljivi na tržištu. Omogućavamo dobar odnos cena
               i uz postizanje uporednog a često i boljeg kvaliteta proizvoda.
-              Višegodišnje iskustvo rada u ovoj oblasti preneli smou samostalnu
+              Višegodišnje iskustvo rada u ovoj oblasti preneli smo u samostalnu
               delatnost i intenzivno je nadograđujemo u skladu sa novim
               trendovima.
+            </p>
+            <p lang="en" class="mtop">
+              Our end product - a luxury box - can be used for gifts to your
+              business partners or promotion and packaging unique products that
+              will attract attention at first glance and add value to the
+              product itself. Leave a striking and unique impression on your
+              customers. Our boxes tell your story of your products, and their
+              attractive appearance contributes to a better brand image. Because
+              of many years of experience, we can provide you with the quality
+              with which you will be recognizable in the market. We provide a
+              good price ratio and a good product quality. We have are utilizing
+              many years of experience working in this field and we are
+              intensively upgrading our experience in accordance with the new
+              trends.
             </p>
           </div>
 
           <div class="center-align">
-            <p>Ideju možete dobiti u našoj galeriji</p>
+            <p lang="sr">Ideju možete dobiti u našoj galeriji</p>
+            <p lang="en">You can get an idea in our gallery</p>
           </div>
         </div>
         <div class="col s12 m6 l6">
@@ -297,59 +441,104 @@
       </div>
       <div class="center-align">
         <a class="waves-effect waves-light btn"
-          ><i class="material-icons left">cloud</i>Galerija</a
+          ><i class="ph ph-images"></i>
+          <span lang="sr" class="card-title">Galerija</span
+          ><span lang="en" class="card-title">Gallery</span></a
         >
       </div>
     </div>
     <!-- CARDS END -->
     <!-- FOOTER -->
 
-    <footer id="kontakt" class="page-footer">
+    <footer
+      id="kontakt"
+      class="page-footer grey lighten-2 grey-text text-darken-4"
+    >
       <div class="container">
-        <h3 class="center-align">Kontakt</h3>
+        <h3 lang="sr" class="center-align">Kontakt</h3>
+        <h3 lang="en" class="center-align">Contact</h3>
+
         <div class="row valign-wrapper">
-          <div class="col s12 m6 l4">
-            <h6>Tel:<a href=""> +38162210253</a></h6>
-            <h6>Email:<a href=""> mareinidza@nemajupojma.com</a></h6>
-            <h6>Adresa:</h6>
+          <div class="container">
+            <h6>
+              <i class="ph ph-phone"></i>
+              Tel:<a
+                href="tel:+38162210253"
+                class="blue-grey-text text-darken-2"
+              >
+                +38162210253</a
+              >
+            </h6>
+            <h6>
+              <i class="ph ph-envelope-simple"></i>
+              Email:<a
+                href="mailto:nikola.volas@gmail.com"
+                class="blue-grey-text text-darken-2"
+              >
+                nikola.volas@gmail.com</a
+              >
+            </h6>
+            <h6 lang="sr">
+              <i class="ph ph-map-pin"></i>
+              <span lang="sr" class="card-title">Adresa:</span>
+            </h6>
+            <h6 lang="en">
+              <i lang="en" class="ph ph-map-pin"></i>
+              <span lang="en" class="card-title">Adress:</span>
+            </h6>
             <p>
-              <a href=""
+              <a
+                class="blue-grey-text text-darken-2"
+                href="https://www.google.com/maps/place/11.+Kraji%C5%A1ke+divizije,+Beograd/@44.7272597,20.4244908,17z/data=!4m6!3m5!1s0x475a7223f2c1b2bf:0xabae6b1509c265eb!8m2!3d44.7280524!4d20.4245659!16s%2Fg%2F11h_ckzc4g"
                 >11 Krajiške divizije 55,<br />
                 11090 Labudovo brdo <br />
                 Beograd</a
               >
             </p>
           </div>
-          <div class="col s12 m6 l4">
-            <h6>Pronađite nas na društvenim mrežama</h6>
+          <div class="container">
+            <h6 lang="sr">Pronađite nas na društvenim mrežama</h6>
+            <h6 lang="en">Find us on social networks</h6>
             <ul class="social">
               <li>
-                <a href="https://www.facebook.com/" class="secondary"
+                <a
+                  href="https://www.facebook.com/"
+                  class="blue-grey-text text-darken-2"
                   ><i class="ph ph-facebook-logo"></i
                 ></a>
               </li>
               <li>
-                <a href="https://www.facebook.com/" class="secondary"
+                <a
+                  href="https://www.facebook.com/"
+                  class="blue-grey-text text-darken-2"
                   ><i class="ph ph-instagram-logo"></i
                 ></a>
               </li>
               <li>
-                <a href="https://www.messenger.com/" class="secondary"
+                <a
+                  href="https://www.messenger.com/"
+                  class="blue-grey-text text-darken-2"
                   ><i class="ph ph-messenger-logo"></i
                 ></a>
               </li>
               <li>
-                <a href="https://www.tiktok.com/en/" class="secondary"
+                <a
+                  href="https://www.tiktok.com/en/"
+                  class="blue-grey-text text-darken-2"
                   ><i class="ph ph-tiktok-logo"></i
                 ></a>
               </li>
               <li>
-                <a href="https://twitter.com/?lang=en" class="secondary"
+                <a
+                  href="https://twitter.com/?lang=en"
+                  class="blue-grey-text text-darken-2"
                   ><i class="ph ph-twitter-logo"></i
                 ></a>
               </li>
               <li>
-                <a href="https://www.youtube.com/" class="secondary"
+                <a
+                  href="https://www.youtube.com/"
+                  class="blue-grey-text text-darken-2"
                   ><i class="ph ph-youtube-logo"></i
                 ></a>
               </li>
@@ -357,8 +546,11 @@
           </div>
         </div>
       </div>
-      <div class="footer-copyright center-align valign-wrapper">
-        <div class="container">© 2023 Milvolbox - Sva prava zadržana</div>
+      <div class="footer-copyright center-align valign-wrapper grey lighten-1">
+        <div class="container grey-text text-darken-4">
+          <p lang="sr">© 2023 Milvolbox - Sva prava zadržana</p>
+          <p lang="en">© 2023 Milvolbox - All rights reserved</p>
+        </div>
       </div>
     </footer>
     <!-- FOOTER END -->
